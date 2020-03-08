@@ -11,3 +11,17 @@ search(id)
   .catch(() => {
     console.log('No hubo pokemon');
   })
+
+// const getPokemon = async (id) => {
+//   try {
+//     const pokemon = await search(id);
+//     render(pokemon);
+//   } catch (err) {
+//     console.error(err);
+//   }
+// }
+// getPokemon(id);
+
+// const pokemon = search(id);
+// alert(pokemon);
+// render(pokemon);
